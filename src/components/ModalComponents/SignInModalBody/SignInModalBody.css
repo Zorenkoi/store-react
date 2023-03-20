@@ -1,0 +1,69 @@
+.sign__wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: var(--choose-headerbackground);
+  padding: 20px;
+}
+.singn__header {
+  font-size: 30px;
+  color: var(--choose-colorlink);
+  text-align: center;
+  text-transform: uppercase;
+}
+.form__wrapper {
+}
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--choose-colorlink);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.input__wrapper {
+  position: relative;
+  padding: 0px 0px 20px;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  padding: 0px 5px;
+  outline: 0;
+  outline-offset: 0;
+}
+.message {
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+  color: rgb(234, 73, 33);
+  font-size: 12px;
+  text-shadow: rgb(255, 255, 255) 1px 0 5px;
+}
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: var(--choose-headerlinkbackground);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--choose-colorlink);
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--choose-headerlinkbackgroundhover);
+}
+.sign__link {
+  font-size: 14;
+  cursor: pointer;
+  color: var(--choose-colorlink);
+  margin-top: 10px;
+  text-align: center;
+}
+.sign__link:hover {
+  text-decoration: underline;
+}

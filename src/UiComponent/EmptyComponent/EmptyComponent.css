@@ -1,0 +1,22 @@
+.empty-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+.empty-img-wrapper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-right: 20px;
+}
+.empty-text-wrapper {
+}
+.empty-text1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--choose-colorlink);
+}

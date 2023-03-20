@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  transition-duration: 0.4s;
+}
+:root {
+  /* --dark-background: black;
+  --light-background: white;
+  --choose-background: var(--light-background); */
+
+  /* /////////////////////////////////////////////// */
+  /* --dark-text: white;
+  --light-text: black;
+
+  --choose-text: var(--light-text); */
+  /* /////////////////////////////////////////////// */
+
+  --dark-background1: #082032;
+  --light-background1: #ffffff;
+  --choose-background1: var(--light-background1);
+  /* /////////////////////////////////////////////// */
+
+  --dark-backgroundlist: #2c394b;
+  --light-backgroundlist: #7286d3;
+  --choose-backgroundlist: var(--light-backgroundlist);
+  /* /////////////////////////////////////////////// */
+
+  --dark-backgroundcard: #254259;
+  --light-backgroundcard: #8ea7e9;
+  --choose-backgroundcard: var(--light-backgroundcard);
+  /* /////////////////////////////////////////////// */
+
+  --dark-colorcard: white;
+  --light-colorcard: black;
+  --choose-colorcard: var(--light-colorcard);
+  /* /////////////////////////////////////////////// */
+
+  --dark-headerbackground: #ff4c29;
+  --light-headerbackground: #7977c4;
+  --choose-headerbackground: var(--light-headerbackground);
+  /* /////////////////////////////////////////////// */
+  --dark-sun: #7977c4;
+  --light-sun: #ff4c29;
+  --choose-sun: var(--light-sun);
+  /* /////////////////////////////////////////////// */
+
+  --dark-headerlinkbackgroundhover: #ff9b87;
+  --light-headerlinkbackgroundhover: #ff971d;
+  --choose-headerlinkbackgroundhover: var(--light-headerlinkbackgroundhover);
+  /* /////////////////////////////////////////////// */
+
+  --dark-headerlinkbackground: #ff9b87;
+  --light-headerlinkbackground: #ff971d;
+  --choose-headerlinkbackground: var(--light-headerlinkbackground);
+  /* /////////////////////////////////////////////// */
+
+  --dark-colorlink: white;
+  --light-colorlink: black;
+  --choose-colorlink: var(--light-colorlink);
+  /* /////////////////////////////////////////////// */
+
+  --dark-chestcolor: white;
+  --light-chestcolor: black;
+  --choose-chestcolor: var(--light-chestcolor);
+  /* /////////////////////////////////////////////// */
+}
+
+body {
+  /* margin-top: 60px; */
+  background-color: var(--choose-background1);
+  color: var(--choose-text);
+  font-family: 'Roboto', sans-serif;
+}
+.content {
+  padding-top: 80px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.img-max {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

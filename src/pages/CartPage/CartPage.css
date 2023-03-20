@@ -1,0 +1,119 @@
+.cartpage__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  background-color: var(--choose-backgroundlist);
+}
+.cartpage__card__wrapper {
+  order: 1;
+}
+.cartpage__info__wrapper {
+  order: 2;
+}
+/* ///////// */
+.cart__card__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cart__card__wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 15px;
+  background-color: var(--choose-backgroundcard);
+  border-radius: 10px;
+  margin: 10px;
+}
+.cart__img__wrapper {
+  min-width: 100px;
+  height: 100px;
+  position: relative;
+}
+.img-cart {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cart__card__info {
+  padding: 10px 0px 0px 15px;
+}
+
+/* /////////////////// */
+
+.cart__info__wrapper {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: var(--choose-headerbackground);
+  padding: 20px;
+  padding-bottom: 70px;
+}
+.cart__card__text {
+  color: var(--choose-colorlink);
+}
+.cart__card__price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 9px 0px;
+  color: var(--choose-colorlink);
+}
+
+.info__flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--choose-colorlink);
+}
+.info__label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 15px;
+}
+.info__text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* //////////////////////////////////// */
+@media (max-width: 1000px) {
+  .cart__card__list {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .cart__img__wrapper {
+    height: 100px;
+    min-width: 100px;
+  }
+  .cartpage__wrapper {
+    grid-template-columns: 1fr 250px;
+  }
+  .cart__info__wrapper {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 550px) {
+  .cartpage__wrapper {
+    display: block;
+  }
+  .cartpage__info__wrapper {
+    padding-top: 1px;
+  }
+  .cart__info__wrapper {
+    padding-bottom: 20px;
+  }
+  .cart__card__wrapper {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .cartpage__card__wrapper {
+    padding: 10px 10px 1px 10px;
+  }
+}
